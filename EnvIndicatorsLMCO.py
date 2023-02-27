@@ -34,7 +34,8 @@ class BB:
 
         # Instance method
         def BollingerBands(self,ref, sut, std=2,  period=20, Fs = 1):
-
+        # Armelle comments1
+        #Armelle comments2git stash apply 0
         # This is based on the Bollinger Bands. Bollinger Bands are envelopes at a standard deviation
         # level aboce and below a simple moving average of the signal. Because the distance of the bands is based on
         # standard deviation, they adjust to the variance in the signal.
