@@ -1,0 +1,45 @@
+{     "InputParams": {
+    "ChanNum": 1,
+    "Label": 1,
+    "Decimation" : 10,
+    "Segments": 3,
+    "Average" : 3,
+    "RefDataPath" : "D://data//LMCO//NCSDev//Results//",
+    "RefFile": "envBMCResults",
+    "DataPath": "D://data//LMCO//NCSDev//S06-UUT1-2022-08-18-bmc-50t-s0s1//"
+    },
+
+"OutputParams":{
+    "Label": 1,
+    "Path": "D://data//LMCO//NCSDev//Results//",
+    "FileName": "DUT_Results",
+    "SaveResults": true
+    },
+
+"BB": {
+"Enable": true,
+"OPs": {
+      "MAWinSize": 10,
+      "NumStd": 1,
+      "Period": 20,
+      "Visualization": false
+      }
+},
+"Cu": {
+"Enable": true,
+"OPs": {
+      "FastEMA": 20,
+      "SlowEMA": 80,
+      "Visualization" : false
+      }
+},
+"MACD": {
+"Enable" : true,
+"OPs": {
+    "FastEMA" : 20,
+    "SlowEMA" : 80,
+    "SigEMA" : 60,
+    "Visualization" : false
+}
+}
+}
